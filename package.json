@@ -1,0 +1,49 @@
+{
+  "name": "league_of_legends_champions_benchmark",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "toolbox": "react-toolbox-themr"
+  },
+  "reactToolbox": {
+    "include": [
+      "APP_BAR",
+      "CHECKBOX",
+      "BUTTON",
+      "INPUT",
+      "TABLE",
+      "DROPDOWN",
+      "AUTOCOMPLETE",
+      "TABS",
+      "LAYOUT"
+    ],
+    "customProperties": {
+      "animation-duration": "0.3s",
+      "color-primary": "var(--palette-blue-grey-800)",
+      "color-primary-dark": "var(--palette-blue-grey-800)",
+      "color-accent": "var(--palette-pink-a200)",
+      "color-accent-dark": "var(--palette-pink-700)",
+      "color-primary-contrast": "var(--color-dark-contrast)",
+      "color-accent-contrast": "var(--color-dark-contrast)"
+    },
+    "output": "src/theme/"
+  },
+  "devDependencies": {
+    "lodash": "4.17.4",
+    "material-design-icons-iconfont": "3.0.3",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-scripts": "1.0.14",
+    "react-toolbox": "2.0.0-beta.12",
+    "react-toolbox-themr": "1.0.2",
+    "recharts": "1.0.0-beta.1",
+    "roboto-fontface": "0.8.0"
+  }
+}

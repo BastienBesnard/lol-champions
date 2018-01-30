@@ -1,0 +1,11 @@
+[data-app='bar-chart'],
+[data-app='line-chart'] {
+    margin: 20px;
+}
+
+[data-app='bar-chart'] [data-app='title'],
+[data-app='line-chart'] [data-app='title']  {
+    color: #37474f;
+    font-weight: bold;
+    text-align: center;
+}

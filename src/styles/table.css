@@ -1,0 +1,4 @@
+[data-app='table'] table th:first-child,
+[data-app='table'] table td:first-child {
+    display: none;
+}
